@@ -14,12 +14,11 @@ h2 {
 p > .resortSlogan {
   display: flex;
   align-items: center;
-  line-break: normal;
 }
 
 .resortDescriptionContainer {
-  display: flex;
-  align-items: center;
+  position: static;
+  margin-left: 400px;
 }
 
 .container-home {
@@ -32,13 +31,6 @@ p > .resortSlogan {
   width: 100%;
   height: 50px;
   background-color: blue;
-}
-
-ul {
-  display: flex;
-  list-style: none;
-  flex-direction: column;
-
 }
 
 .container-home {
