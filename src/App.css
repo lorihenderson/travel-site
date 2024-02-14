@@ -1,38 +1,136 @@
-.App {
-  text-align: center;
+* {
+  /* display: flex; */
+  background-color: #cec;
+  justify-content: center;
+  align-items: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h2 {
   display: flex;
+  align-items: center;
+  padding-top: 30px;
+}
+
+p > .resortSlogan {
+  display: flex;
+  align-items: center;
+  line-break: normal;
+}
+
+.resortDescriptionContainer {
+  display: flex;
+  align-items: center;
+}
+
+.container-home {
+  display: flex;
+  margin: 15%;
+  margin-top: 5px;
+}
+
+.navigation {
+  width: 100%;
+  height: 50px;
+  background-color: blue;
+}
+
+ul {
+  display: flex;
+  list-style: none;
   flex-direction: column;
+
+}
+
+.container-home {
+  display: flex;
+  height: 400px;
+  width: 626px;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-image: url("../tropical\ beach.png");
+  background-repeat: no-repeat;
 }
 
-.App-link {
-  color: #61dafb;
+.homepageSlogan {
+  font-style: italic;
+  font-family: cursive;
+  font-size: xx-large;
+  /* text-decoration: overline underline; */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+span {
+  font-style: italic;
+  /* font-family: cursive; */
+  font-size: xx-large;
+  /* font-variant: small-caps; */
+  background-color: #cec;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.links:hover {
+  cursor: pointer;
+}
+
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  left: 36px;
+  top: 36px;
+}
+
+.bm-burger-bars {
+  background-color: #373a47;
+}
+
+.bm-burger-bars-hover {
+  background-color: #a90000;
+}
+
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+.bm-cross {
+  background-color: #bdc3c7;
+}
+
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+}
+
+.bm-menu {
+  background-color: #3734c7;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 0.8em;
+}
+
+.bm-item {
+  display: inline-block;
+
+  color: #d1d1d1;
+  margin-bottom: 10px;
+  text-align: left;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.bm-item:hover {
+  color: #ffffff;
+}
+
+.bm-overlay {
+  background-color: rgba(0, 0, 0, 0.3);
 }
