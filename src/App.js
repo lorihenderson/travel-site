@@ -1,13 +1,10 @@
-/* eslint-disable react/jsx-no-undef */
 import './App.css';
 import Attractions from './components/Attractions';
 import Bookings from './components/Bookings';
 import CurrencyConverter from './components/CurrencyConverter';
-import Hamburger from './components/Hamburger';
 import Home from './components/Home';
-import Navbar from './components/Navbar';
 import Weather from './components/Weather';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Sidebar from './components/Navbar';
 
 

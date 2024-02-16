@@ -1,6 +1,6 @@
 * {
   /* display: flex; */
-  background-color: #cec;
+  background-color: rgb(105, 222, 214);
   justify-content: center;
   align-items: center;
 }
@@ -35,6 +35,7 @@ p > .resortSlogan {
 
 .container-home {
   display: flex;
+  position: fixed;
   height: 400px;
   width: 626px;
   align-items: center;
@@ -55,7 +56,7 @@ span {
   /* font-family: cursive; */
   font-size: xx-large;
   /* font-variant: small-caps; */
-  background-color: #cec;
+  background-color: rgb(105, 222, 214);
 }
 
 .links {
@@ -77,11 +78,11 @@ span {
 }
 
 .bm-burger-bars {
-  background-color: #373a47;
+  background-color: #f26924;
 }
 
 .bm-burger-bars-hover {
-  background-color: #a90000;
+  background-color: #411cb0;
 }
 
 .bm-cross-button {
@@ -90,7 +91,7 @@ span {
 }
 
 .bm-cross {
-  background-color: #bdc3c7;
+  background-color: #0163a5;
 }
 
 .bm-menu-wrap {
@@ -99,20 +100,19 @@ span {
 }
 
 .bm-menu {
-  background-color: #3734c7;
+  background-color: #002119;
   padding: 2.5em 1.5em 0;
   font-size: 1.15em;
 }
 
 .bm-item-list {
-  color: #b8b7ad;
+  color: #766c00;
   padding: 0.8em;
 }
 
 .bm-item {
   display: inline-block;
-
-  color: #d1d1d1;
+  color: #0163a5;
   margin-bottom: 10px;
   text-align: left;
   text-decoration: none;
@@ -120,7 +120,7 @@ span {
 }
 
 .bm-item:hover {
-  color: #ffffff;
+  color: #002742;
 }
 
 .bm-overlay {
