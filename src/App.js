@@ -6,6 +6,7 @@ import Home from './components/Home';
 import Weather from './components/Weather';
 import { Routes, Route } from 'react-router-dom';
 import Sidebar from './components/Navbar';
+// import CurrencyRow from './components/CurrencyRow';
 
 
 function App() {

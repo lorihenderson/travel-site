@@ -26,11 +26,12 @@ export default function Weather() {
         <input type="text" placeholder="Enter city/town" onChange={(e) => setSearch(e.target.value)} />
         <button onClick={searchPressed}> Search </button>
       </div>
-      <p>{weather.name}</p>
-      <p>{weather?.main.temp}°F</p>
+
+      {/* <p>{weather.name}</p> */}
+      {/* <p>{weather?.main?.temp}°F</p> */}
       <div>
-        <p>{weather?.weather[0].main}</p>
-        <p>({weather?.weather[0].description})</p>
+        {/* <p>{weather?.weather[0].main}</p> */}
+        {/* <p>({weather?.weather[0].description})</p> */}
       </div>
 
     </>

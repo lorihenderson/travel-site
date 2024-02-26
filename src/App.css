@@ -126,3 +126,50 @@ span {
 .bm-overlay {
   background-color: rgba(0, 0, 0, 0.3);
 }
+
+.input {
+  display: flex;
+  width: 150px;
+  /* justify-content: center; */
+}
+
+#currencyconverter {
+  padding-top: 200px;
+  display: flex;
+}
+
+.equals, .container-cr, .xchange {
+  display: flex;
+}
+
+.equals {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.xchange {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background-color: #0163a5;
+  color:#f26924;
+}
+
+.booking-body {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.container-a {
+  /* display: flex; */
+}
+
+#attractions {
+  display: flex;
+}
+
+.a-desc {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
